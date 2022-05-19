@@ -25,5 +25,9 @@ else{
           minutes = 20 - (20-temperature);
         }
     }
+  if (minutes<0)
+  {
+    minutes=0
+  }
 }
 alert(minutes);
