@@ -1,6 +1,6 @@
 var getSortedArray = function (mass, key) {
-for (var i = 0; i < mass.length - 1; i++) {
-for (var j = i + 1; j < mass.length; j++) {
+for (let i = 0; i < mass.length - 1; i++) {
+for (let j = i + 1; j < mass.length; j++) {
 if (mass[j][key] <= mass[i][key]) {
 swap = mass[i];
 mass[i] = mass[j];
