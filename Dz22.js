@@ -1,8 +1,8 @@
-var numbers = [3, 5, 15, 6, 2, 1];
-var swap;
+let numbers = [3, 5, 15, 6, 2, 1];
+let swap;
 
-for (var i = 0; i < numbers.length; i++) {
-for (var j = i + 1; j < numbers.length; j++) {
+for (let i = 0; i < numbers.length; i++) {
+for (let j = i + 1; j < numbers.length; j++) {
 if (numbers[j] < numbers[i]) {
 swap = numbers[i];
 numbers[i] = numbers[j];
